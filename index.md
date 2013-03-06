@@ -1,46 +1,24 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title:
+tagline: code like no one is watching; deploy like you've never been hurt
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+## Recent Projects
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+<img src="assets/images/stella.png" id="stella-logo">
 
-## Update Author Attributes
+[Stella](http://staging.stellahq.com/) is a Backbone.js/Chaplin app with a Rails 4 RESTful API. I worked on both the front- and back-end of this project during my [internship at Burnside Digital](events/2012/10/22/portland-code-school-week-one/). As part of a nine-person agile development team, I helped build out new features, wrote tests, and refactored old code. Here's [one small sample](code-samples/2013/03/02/fun-with-recursion/) of the work I did.
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+----------------------------
+## Deep Cuts
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+### Goal Tracker
+The [Goal Tracker](https://github.com/ribbitfix/goal-tracker) was my first attempt at writing a Rails app from scratch. I'm looking forward to reworking and expanding it, using everything I've learned in the last few months.
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
-
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
-
+### Python/Django learning projects
+I worked on the following learning projects during my informal internship at [Lo-fi Art](http://lofiart.com/):
+- [Web Scraper](https://github.com/ribbitfix/web-scraper)
+- [File Lending Library](https://github.com/ribbitfix/file-lending-library)
+- [Requirements Extractor](https://github.com/ribbitfix/requirements-extractor)
